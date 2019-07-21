@@ -1,12 +1,10 @@
-package com.dev.comfig;
+package com.dev.config;
 
 import com.dev.bean.Person;
-import com.dev.service.BookService;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.FilterType;
-import org.springframework.stereotype.Controller;
 
 /**
  * @author: liupengfei

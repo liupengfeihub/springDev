@@ -1,10 +1,9 @@
 package com.dev;
 
 import com.dev.bean.Person;
-import com.dev.comfig.MainConfig;
+import com.dev.config.MainConfig;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
-import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 /**
  * @author: liupengfei
@@ -27,6 +26,8 @@ public class MainTest {
         for (String name : namesForType) {
             System.out.println(name);
         }
+
+
 
     }
 }
